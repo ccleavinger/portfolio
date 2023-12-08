@@ -28,7 +28,7 @@ const Contact = () => {
       alert("You're a poopy head.")
       return;
     }
-    
+
     e.preventDefault();
     setLoading(true);
 
@@ -43,6 +43,7 @@ const Contact = () => {
           to_name: 'Caleb',
           from_email: form.email,
           to_email: 'caleb.cleavinger@gmail.com',
+          message: form.message,
         },
         'JJ0q-GeT24Y2x7WWS'
         )
