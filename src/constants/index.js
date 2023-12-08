@@ -15,14 +15,8 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
     tripguide,
-    threejs, blender, coding_school, coderSchool,
+    threejs, blender, coding_school, coderSchool, vulkan, rtx, bleed,
 } from "../assets";
 
 export const navLinks = [
@@ -163,7 +157,7 @@ const experiences = [
         points: [
             "Taught students computer science in a project based education structure.",
             "Collaborated with fellow high school students, college students, and grad students in my teaching experience.",
-            "Subject complexity covered everything from printing 'hello world' to helping students make apps for congressional app challenges.",
+            "Subject complexity covered everything from printing 'hello world' to helping students make winning apps for congressional app challenges.",
             "Subjects I've taught include; Web Development, Game Development, Android app development, and AI development.",
         ],
     },
@@ -198,67 +192,75 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Vulkan Introduction",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Basic multi threaded vulkan renderer that supports both basic compute shaders and a basic pbr pipeline. This project expanded my C/C++ skills and helped me learn every step of GPU processing.",
         tags: [
             {
-                name: "react",
+                name: "C/C++",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "Vulkan",
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "GLFW",
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: vulkan,
+        source_code_link: "https://github.com/ccleavinger/VulkanIntro",
     },
     {
-        name: "Job IT",
+        name: "CPU Raytracing",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "Multi threaded CPU raytracing following the The Cherno's youtube series. This project has taught me essentials for setting up C/C++ projects on Windows and writing performant CPU-driven code.",
         tags: [
             {
-                name: "react",
+                name: "C/C++",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "ImGUI",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "Premake",
                 color: "pink-text-gradient",
             },
+            {
+                name: "Lua",
+                color: "orange-text-gradient"
+            },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: rtx,
+        source_code_link: "https://github.com/ccleavinger/Raytracing",
     },
     {
-        name: "Trip Guide",
+        name: "Bleed OS",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "A minimalist toy OS that is under-development. This massive project is teaching me the importance of project management, writing memory safe and performant code, and developing on linux.",
         tags: [
             {
-                name: "nextjs",
+                name: "x86 Assembly",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "C/C++",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "Linux",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "QEMU",
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: bleed,
+        source_code_link: "https://github.com/ccleavinger/bleed",
     },
 ];
 

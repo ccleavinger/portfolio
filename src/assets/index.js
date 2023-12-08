@@ -33,6 +33,9 @@ import neural from "./NeuralNet.svg"
 import blender from "./blender_logo.png"
 import coding_school from "./codingschool.png"
 import coderSchool from "./thecoderschool.png"
+import vulkan from "./VulkanCompute.png"
+import rtx from "./raytracing.png"
+import bleed from "./Bleed_Hello.png"
 
 export {
   logo,
@@ -67,4 +70,7 @@ export {
   blender,
   coding_school,
   coderSchool,
+  vulkan,
+  rtx,
+  bleed,
 };
