@@ -4,19 +4,23 @@ import {
     creator,
     web,
     javascript,
-    typescript,
-    html,
-    css,
     reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
     git,
-    figma,
-    docker,
-    tripguide,
-    threejs, blender, coding_school, coderSchool, vulkan, rtx, bleed,
+    threejs,
+    blender,
+    coding_school,
+    coderSchool,
+    vulkan,
+    rtx,
+    bleed,
+    cpp,
+    kt,
+    dna,
+    gd,
+    torch,
+    tf,
+    ue5,
+    rust, python,
 } from "../assets";
 
 export const navLinks = [
@@ -55,40 +59,40 @@ const services = [
 
 const technologies = [
     {
-        name: "HTML 5",
-        icon: html,
+        name: "Python",
+        icon: python,
     },
     {
-        name: "CSS 3",
-        icon: css,
+        name: "C++",
+        icon: cpp,
     },
     {
         name: "JavaScript",
         icon: javascript,
     },
     {
-        name: "TypeScript",
-        icon: typescript,
+        name: "Rust",
+        icon: rust,
     },
     {
         name: "React JS",
         icon: reactjs,
     },
     {
-        name: "Redux Toolkit",
-        icon: redux,
+        name: "Kotlin",
+        icon: kt,
     },
     {
-        name: "Tailwind CSS",
-        icon: tailwind,
+        name: "Unreal Engine",
+        icon: ue5,
     },
     {
-        name: "Node JS",
-        icon: nodejs,
+        name: "Genetic Engineering",
+        icon: dna,
     },
     {
-        name: "MongoDB",
-        icon: mongodb,
+        name: "Godot",
+        icon: gd,
     },
     {
         name: "Three JS",
@@ -99,12 +103,12 @@ const technologies = [
         icon: git,
     },
     {
-        name: "figma",
-        icon: figma,
+        name: "PyTorch",
+        icon: torch,
     },
     {
-        name: "docker",
-        icon: docker,
+        name: "TensorFlow",
+        icon: tf,
     },
 ];
 

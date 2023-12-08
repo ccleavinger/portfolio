@@ -40,7 +40,11 @@ const About = () => {
 
       <motion.p variants={fadeIn("", "", 0.1, 0.1)}
       className="mt-4  text-secondary text-[17px] max-w-5xl leading-[30px]">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut mi pulvinar, facilisis lectus in, tristique leo. Aenean ex ipsum, tristique varius eros nec, vulputate vehicula leo. Maecenas at ullamcorper lorem. Nulla ac libero aliquet, pulvinar magna eu, ornare metus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec ac gravida tortor, a blandit quam. Nulla porta euismod tempor.
+          I'm currently a tutor with a love for computer science, AI, and Genetic Engineering. I have experience in
+          low-level development (Rust, C++, Vulkan, & Zig), AI/ML (Scikit Learn, PyTorch, TF/Keras, & OpenCV),
+          Game Development (Godot, C#, C++, Pygame, & Unreal Engine), Quantum Computing (Q# & Microsoft Quantum Dev Kit)
+          , and Web Development (Three.js, TailwindCSS, & JS).
+          I have been editing DNA since I was 13 and have found a great love for Genetics, Microbiology, and Immunotherapy through my education.
       </motion.p>
 
         <div className="mt-20 flex flex-wrap gap-10">
