@@ -1,13 +1,8 @@
 import { BrowserRouter } from "react-router-dom";
 
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from './components';
-import { inject } from "@vercel/analytics";
-import { injectSpeedInsights } from '@vercel/speed-insights';
 
 const App = () => {
-
-  inject();
-  injectSpeedInsights();
 
   return (
     <BrowserRouter>
