@@ -1,9 +1,14 @@
 import { BrowserRouter } from "react-router-dom";
 
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from './components'
-import Earth from "./components/canvas/Earth.jsx";
+import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from './components';
+import { inject } from "@vercel/analytics";
+import { injectSpeedInsights } from '@vercel/speed-insights';
 
 const App = () => {
+
+  inject();
+  injectSpeedInsights();
+
   return (
     <BrowserRouter>
         <div className="relative z-0 bg-primary">
