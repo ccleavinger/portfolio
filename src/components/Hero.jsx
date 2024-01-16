@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 
-import { styles } from '../syles';
+import { styles } from '../styles.js';
 import { ComputersCanvas } from './canvas';
 // eslint-disable-next-line no-unused-vars
 import React from 'react'

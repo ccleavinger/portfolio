@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-import {styles} from "../syles.js";
+import {styles} from "../styles.js";
 import {services} from "../constants/index.js";
 import {staggerContainer} from "../utils/motion.js";
 

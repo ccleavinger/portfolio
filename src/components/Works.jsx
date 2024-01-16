@@ -1,7 +1,7 @@
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
-import { styles } from "../syles.js";
+import { styles } from "../styles.js";
 import { github } from "../assets";
 import { SectionWrapper } from "../hoc"
 import {fadeIn, textVariant} from "../utils/motion.js";

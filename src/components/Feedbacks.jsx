@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-import { styles } from "../syles.js";
+import { styles } from "../styles.js";
 import { SectionWrapper } from "../hoc"
 import { fadeIn, textVariant } from "../utils/motion.js";
 import { testimonials } from "../constants/index.js";
