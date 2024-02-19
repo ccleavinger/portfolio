@@ -1,3 +1,6 @@
+/*
+// wasn't using this file anyway
+
 import { motion } from "framer-motion";
 
 import { styles } from "../styles.js";
@@ -61,3 +64,4 @@ const Feedbacks = () => {
 }
 
 export default SectionWrapper(Feedbacks, "");
+*/
