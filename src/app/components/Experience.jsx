@@ -12,7 +12,7 @@ import React from "react";
 
 const ExperienceCard = ({ experience }) => (
 
-        <VerticalTimelineElement
+      <VerticalTimelineElement
         contentStyle={{
           background: "#1d1836",
           color: "#fff",
@@ -29,6 +29,7 @@ const ExperienceCard = ({ experience }) => (
             />
           </div>
         }
+        visible={true}
     >
     <div>
         <h3 className="text-white text-[24px] font-bold">{experience.title}</h3>
@@ -59,9 +60,9 @@ const Experience = () => {
       </motion.div>
 
       <div className="mt-20 flex flex-col">
-        <VerticalTimeline>
+        <VerticalTimeline visible={true}>
           {experiences.map((experience, index) => (
-              <ExperienceCard key={index} experience={experience}/>
+              <ExperienceCard key={index} experience={experience} visible={true}/>
           ))}
         </VerticalTimeline>
       </div>

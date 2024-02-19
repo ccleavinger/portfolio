@@ -1,7 +1,6 @@
 import React from "react";
 import { Tilt } from "react-tilt"
 import { motion } from 'framer-motion'
-
 import {styles} from "../styles.js"
 import { services } from "../constants"
 import { fadeIn, textVariant } from "../utils/motion.js";
@@ -22,7 +21,7 @@ const ServiceCard = ({index, title, icon}) => {
                 }}
                 className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[250px] flex justify-evenly items-center flex-col"
                 >
-                    <img src={icon} alt={title} className="w-16 h-16 object-contain"/>
+                    <img src={icon} alt={title} className="w-16 h-16 object-contain" />
                     <h3 className="text-white text-[20px] font-bold text-center">{title}</h3>
                 </div>
             </motion.div>
@@ -40,7 +39,7 @@ const About = () => {
 
       <motion.p variants={fadeIn("", "", 0.1, 0.1)}
       className="mt-4  text-secondary text-[17px] max-w-5xl leading-[30px]">
-          I'm currently a tutor with a love for computer science, AI, and Genetic Engineering. I have experience in
+          I&apos;m currently a tutor with a love for computer science, AI, and Genetic Engineering. I have experience in
           low-level development (Rust, C++, Vulkan, & Zig), AI/ML (Scikit Learn, PyTorch, TF/Keras, & OpenCV),
           Game Development (Godot, C#, C++, Pygame, & Unreal Engine), Quantum Computing (Q# & Microsoft Quantum Dev Kit)
           , and Web Development (Three.js, TailwindCSS, & JS).

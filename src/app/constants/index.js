@@ -21,7 +21,7 @@ import {
     tf,
     ue5,
     rust, python,
-} from "../assets";
+} from "../../assets";
 
 export const navLinks = [
     {
