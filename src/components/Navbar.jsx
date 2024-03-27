@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import {useState} from 'react';
 import { Link } from 'react-router-dom';
 
 import { styles } from "../styles.js";
@@ -23,7 +23,7 @@ function randLabel() {
 
 
 const Navbar = () => {
-  const [active, setActive] = useState('');
+  const [active,    setActive] = useState('');
   const [toggle, setToggle] = useState(false);
 
   return (
